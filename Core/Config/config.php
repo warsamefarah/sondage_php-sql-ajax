@@ -2,7 +2,7 @@
 
 $dbConfig = [
     "host" => "localhost:3306",
-    "dbname" => "poll",
+    "dbname" => "pollsite",
     "user" => "root",
     "pass" => "root"
 ];
