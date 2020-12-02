@@ -1,6 +1,6 @@
 <?php
 
-$pdo = new PDO('mysql:host=localhost:3306;dbname=pollsite','root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
+$pdo = new PDO('mysql:host=localhost:3306;dbname=poll','root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 
 session_start();
 
