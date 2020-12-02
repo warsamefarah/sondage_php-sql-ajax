@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-<?php
-
-require "Autoloader.php";
-Autoloader::register();
-
-include "pollCreate.php";
-
-?>
-=======
 <!DOCTYPE html>
     <html lang="fr">
         <head>
@@ -92,4 +82,3 @@ include "pollCreate.php";
 
         </body>
 </html>
->>>>>>> 6bd230ea7364295bbc067d1765a02f077411d55a
