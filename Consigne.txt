@@ -1,0 +1,33 @@
+Un client vous demande de faire une app de sondage entre amis. Cette app de sondage est pour proposer à nos amis de nous aider dans nos choix.
+
+Exemple que vais-je manger aujourd'hui?
+        1/ Japonais,
+        2/ Macdo
+Le sondage aura un temps limite de réponse définit par l'auteur.
+L'idée est de partagé le lien du sondage à ses amis qui pourront répondre s'ils sont connectés.
+Une personne peut voir ses amis connectés sur le site.
+L'auteur du sondage verra au fur et à mesure des réponses les résultats s'afficher sans avoir à actualiser la page.
+Le client veut que l'utilisateur ai la possibilité d'envoyer une invitation pour le sondage par mail.
+
+Vous aurez donc à gérer en base de données: 
+- les utilisateurs=> leurs infos personnelles, la connexion
+- Les liens d'amis
+- les sondages
+- les réponses avec leur résultat
+- les tchat
+- Les messages de tchat
+
+
+
+
+
+                  1 landing.php Une page d'accueil(qui affichera les sondages en cours des amis et les sondages passés de l'utilisateur), 
+                  2 amis.php Une page de recherche d'amis pour les ajouter et qui affiche aussi nos amis actuels et la possibilité de les enlever de la liste.
+                  3 inscription.php Une page d'inscription,
+                  4 connexion.php Une page de connexion,
+
+
+                  5 mon compte Une page de modification des informations de l'utilisateur,
+                  6 créer un sondage Une page de création de sondage,
+                  7 résultat sondage  Une page de consultation du résultat du sondage,
+                   Un tchat sera rajouté sur cette dernière page pour commenter le sondage.
